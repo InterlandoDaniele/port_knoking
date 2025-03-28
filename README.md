@@ -21,9 +21,9 @@ Per configurare il port knocking sul bastion host (un server Linux):
 Copia il file script_install_config_port_knoking.sh sul bastion host.
 
 **Esegui lo script con privilegi di root:**
-'''
+```
 bash script_install_config_port_knoking.sh
-'''
+```
 **Lo script eseguirà le seguenti operazioni:**
 Aggiorna il sistema e installa le dipendenze (gcc, make, libpcap-devel, git, autoconf, automake, iptables-services).
 
